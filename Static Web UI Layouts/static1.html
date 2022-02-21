@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+            text-align: center;
+        }
+        body {
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            display: flex;
+            justify-items: center;
+        }
+        .content {
+            display: flex;
+        }
+        .block-center {
+            display: flex;
+            flex-direction: column;
+        }
+        .center-middle {
+            display: flex;
+        }
+        .hedlogo {
+            display: flex;
+            width: 35%;
+            height: 100px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+        }
+        .hedbanner {
+            width: 75%;
+            height: 100px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hedbar {
+            height: 100px;
+            margin-bottom: 20px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .block-left {
+            width: 30%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .block-center {
+            width: 40%;
+            border: 1px solid black;
+        }
+        .block-right {
+            width: 30%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center-top {
+            height: 150px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center-right {
+            height: 150px;
+            width: 50%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center-left {
+            height: 150px;
+            width: 50%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center-bottom {
+            height: 150px;            
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer {
+            margin-top: 20px;
+            height: 100px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="hedlogo">
+                <h3>Header Logo</h3>
+            </div>
+            <div class="hedbanner">
+                <h3>Header Banner</h3>
+            </div>
+        </div>
+        <div class="hedbar">
+            <h3>Header Bar</h3>
+        </div>
+        <div class="content">
+            <div class="block-left">
+                <h3>Left Block</h3>
+            </div>
+            <div class="block-center">
+                <div class="center-top">
+                    <h3>Center-Center Block</h3>
+                </div>
+                <div class="center-middle">
+                    <div class="center-left">
+                        
+                        <h3>Center-Left Block</h3>
+                    </div>
+                    <div class="center-right">
+                        <h3>Center-Right Block</h3>
+                        
+                    </div>
+                </div>
+                <div class="center-bottom">
+                    <h3>Middle Comment</h3>
+    
+                </div>
+
+            </div>
+            <div class="block-right">
+                <h3>Right Block</h3>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Footer</h3>
+        </div>
+    </div>
+</body>
+
+</html>
